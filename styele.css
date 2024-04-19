@@ -1,0 +1,35 @@
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Style for the name */
+.name {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease-in-out;
+    animation: pulse 1s infinite alternate;
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Different colors for the name */
+.name:hover {
+    color: red; /* Change this to any color you like */
+}
+
+/* Style for the smiley face */
+.smiley {
+    font-size: 48px;
+}
